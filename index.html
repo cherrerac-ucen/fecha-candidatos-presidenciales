@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body { margin: 0; padding: 8px; font-family: 'Lato', sans-serif; }
+    .banner {
+      border: 2.5px solid #1565C0;
+      border-radius: 10px;
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      background: #ffffff;
+      box-sizing: border-box;
+    }
+    .label {
+      font-size: 11px;
+      font-weight: 700;
+      color: #1565C0;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+    .fechas { display: flex; align-items: center; gap: 14px; }
+    .fecha-grupo { display: flex; align-items: baseline; gap: 6px; }
+    .fecha-titulo { font-size: 13px; color: #888; }
+    .fecha-valor { font-size: 16px; font-weight: 700; color: #1a1a1a; }
+    .flecha { font-size: 20px; color: #1565C0; }
+    .badge {
+      background: #1565C0;
+      color: #ffffff;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 5px 16px;
+      border-radius: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <div>
+      <div class="label">Período del estudio</div>
+      <div class="fechas">
+        <div class="fecha-grupo">
+          <span class="fecha-titulo">Inicio</span>
+          <span class="fecha-valor">Octubre 2025</span>
+        </div>
+        <span class="flecha">→</span>
+        <div class="fecha-grupo">
+          <span class="fecha-titulo">Cierre</span>
+          <span class="fecha-valor">Enero 2026</span>
+        </div>
+      </div>
+    </div>
+    <div class="badge">3 meses</div>
+  </div>
+</body>
+</html>
